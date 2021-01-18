@@ -29,5 +29,5 @@ function onMenuButton(){
 
 document.addEventListener('searchbutton',onSearchButton, false);
 function onSearchButton(){
-        alert('onSearchButton() function is called');
+     console.log('this is search button');
 }
